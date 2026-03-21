@@ -1,0 +1,8192 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "img": {
+        "source": [
+          "img/inv-wood-out.png",
+          "img/inv-wood-in.png",
+          "img/inv-wood-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood",
+        "description": "Found in trees, or on the ground.",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wood.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 2,
+      "img": {
+        "source": [
+          "img/inv-stone-out.png",
+          "img/inv-stone-in.png",
+          "img/inv-stone-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone",
+        "description": "Find it on the ground or on the rock.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 8,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-stone.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 3,
+      "img": {
+        "source": [
+          "img/inv-steel-out.png",
+          "img/inv-steel-in.png",
+          "img/inv-steel-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Iron",
+        "description": "Melt it on a Firepit or a Smelter",
+        "level": -1,
+        "skillCost": 1,
+        "type": 8,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-steel.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 4,
+      "img": {
+        "source": [
+          "img/inv-animal-fat-out.png",
+          "img/inv-animal-fat-in.png",
+          "img/inv-animal-fat-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Animal Fat",
+        "description": "Useful to craft bullet and clothes",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-animal-fat.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 5,
+      "img": {
+        "source": [
+          "img/inv-animal-tendon-out.png",
+          "img/inv-animal-tendon-in.png",
+          "img/inv-animal-tendon-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Animal Tendon",
+        "description": "Useful to make string",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-animal-tendon.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 6,
+      "img": {
+        "source": [
+          "img/inv-string-out.png",
+          "img/inv-string-in.png",
+          "img/inv-string-click.png"
+        ]
+      },
+      "detail": {
+        "name": "String",
+        "description": "Useful to craft many items.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 5,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-string.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 7,
+      "img": {
+        "source": [
+          "img/inv-leather-boar-out.png",
+          "img/inv-leather-boar-in.png",
+          "img/inv-leather-boar-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Leather",
+        "description": "Useful to make clothes",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-leather-boar.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 8,
+      "img": {
+        "source": [
+          "img/inv-shaped-metal-out.png",
+          "img/inv-shaped-metal-in.png",
+          "img/inv-shaped-metal-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Shaped Metal",
+        "description": "To craft improved items.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 8,
+        "requiredResources": [
+          {
+            "itemId": 3,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-shaped-metal.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 9,
+      "img": {
+        "source": [
+          "img/inv-raw-steak-out.png",
+          "img/inv-raw-steak-in.png",
+          "img/inv-raw-steak-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Raw Steak",
+        "description": "#Vegan",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-raw-steak.png",
+      "selection_type": 12,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 10,
+      "img": {
+        "source": [
+          "img/inv-cooked-steak-out.png",
+          "img/inv-cooked-steak-in.png",
+          "img/inv-cooked-steak-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cooked Steak",
+        "description": "Rare or medium?",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 9,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-cooked-steak.png",
+      "selection_type": 13,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 11,
+      "img": {
+        "source": [
+          "img/inv-rotten-steak-out.png",
+          "img/inv-rotten-steak-in.png",
+          "img/inv-rotten-steak-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Steak",
+        "description": "Don't eat that.",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-rotten-steak.png",
+      "selection_type": 14,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 12,
+      "img": {
+        "source": [
+          "img/inv-orange-out.png",
+          "img/inv-orange-in.png",
+          "img/inv-orange-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Orange",
+        "description": "A little hungry?",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-orange.png",
+      "selection_type": 15,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 13,
+      "img": {
+        "source": [
+          "img/inv-rotten-orange-out.png",
+          "img/inv-rotten-orange-in.png",
+          "img/inv-rotten-orange-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Orange",
+        "description": "Go on, have a bite!",
+        "level": -1,
+        "skillCost": 1,
+        "type": 6,
+        "requiredResources": [
+          {
+            "itemId": 12,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-orange.png",
+      "selection_type": 16,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 14,
+      "img": {
+        "source": [
+          "img/inv-orange-seed-out.png",
+          "img/inv-orange-seed-in.png",
+          "img/inv-orange-seed-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Orange Seed",
+        "description": "Fill up on Vitame C?",
+        "level": -1,
+        "skillCost": 1,
+        "type": 6,
+        "requiredResources": [
+          {
+            "itemId": 12,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 40,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-plant2-orange.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-plant2-orange.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant0-orange.png"
+        },
+        {
+          "source": "img/day-plant1-orange.png"
+        },
+        {
+          "source": "img/day-plant2-orange.png"
+        },
+        {
+          "source": "img/day-plant3-orange.png"
+        },
+        {
+          "source": "img/day-plant4-orange.png"
+        }
+      ],
+      "ground_img": "img/day-ground-orange-seed.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "inmapy": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "id": 15,
+      "img": {
+        "source": [
+          "img/inv-hachet-out.png",
+          "img/inv-hachet-in.png",
+          "img/inv-hachet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Hatchet",
+        "description": "Harvest Wood and Stone.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 10
+          },
+          {
+            "itemId": 2,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-hachet.png",
+      "selection_type": 3,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 16,
+      "img": {
+        "source": [
+          "img/inv-stone-pickaxe-out.png",
+          "img/inv-stone-pickaxe-in.png",
+          "img/inv-stone-pickaxe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Pickaxe",
+        "description": "Mine Stone and Iron.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 100
+          },
+          {
+            "itemId": 2,
+            "count": 30
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-stone-pickaxe.png",
+      "selection_type": 1,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 17,
+      "img": {
+        "source": [
+          "img/inv-steel-pickaxe-out.png",
+          "img/inv-steel-pickaxe-in.png",
+          "img/inv-steel-pickaxe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Pickaxe",
+        "description": "Mine also Sulfur",
+        "level": 6,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 150
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-steel-pickaxe.png",
+      "selection_type": 2,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 18,
+      "img": {
+        "source": [
+          "img/inv-stone-axe-out.png",
+          "img/inv-stone-axe-in.png",
+          "img/inv-stone-axe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Axe",
+        "description": "Harvest a lot of Wood",
+        "level": 5,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 150
+          },
+          {
+            "itemId": 8,
+            "count": 7
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-stone-axe.png",
+      "selection_type": 4,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 19,
+      "img": {
+        "source": [
+          "img/inv-workbench-out.png",
+          "img/inv-workbench-in.png",
+          "img/inv-workbench-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Workbench",
+        "description": "Allow you to make new items.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 40
+          },
+          {
+            "itemId": 2,
+            "count": 20
+          }
+        ]
+      },
+      "stack": 255,
+      "putableimg": {
+        "source": "img/day-clear-blue-workbench.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-workbench.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-workbench.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": "img/day-workbench.png",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 20,
+      "img": {
+        "source": [
+          "img/inv-wood-spear-out.png",
+          "img/inv-wood-spear-in.png",
+          "img/inv-wood-spear-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Spear",
+        "description": "Don't forget to pick it up.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 70
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-wood-spear.png",
+      "selection_type": 5,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 21,
+      "img": {
+        "source": [
+          "img/inv-wood-bow-out.png",
+          "img/inv-wood-bow-in.png",
+          "img/inv-wood-bow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Bow",
+        "description": "Where are the cowboys?",
+        "level": -1,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 60
+          },
+          {
+            "itemId": 5,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-wood-bow.png",
+      "selection_type": 6,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 22,
+      "img": {
+        "source": [
+          "img/inv-9mm-out.png",
+          "img/inv-9mm-in.png",
+          "img/inv-9mm-click.png"
+        ]
+      },
+      "detail": {
+        "name": "9MM",
+        "description": "I hope you know how to aim.",
+        "level": 7,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 90,
+            "count": 6
+          },
+          {
+            "itemId": 8,
+            "count": 9
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-9mm.png",
+      "selection_type": 8,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 23,
+      "img": {
+        "source": [
+          "img/inv-desert-eagle-out.png",
+          "img/inv-desert-eagle-in.png",
+          "img/inv-desert-eagle-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Desert Eagle",
+        "description": "Pretty useful for self-defense.",
+        "level": 9,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 4
+          },
+          {
+            "itemId": 8,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-desert-eagle.png",
+      "selection_type": 9,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 24,
+      "img": {
+        "source": [
+          "img/inv-shotgun-out.png",
+          "img/inv-shotgun-in.png",
+          "img/inv-shotgun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Shotgun",
+        "description": "He's dead now, don't you think?",
+        "level": 11,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 6
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-shotgun.png",
+      "selection_type": 7,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 25,
+      "img": {
+        "source": [
+          "img/inv-ak47-out.png",
+          "img/inv-ak47-in.png",
+          "img/inv-ak47-click.png"
+        ]
+      },
+      "detail": {
+        "name": "AK47",
+        "description": "Revolution time",
+        "level": 12,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 14
+          },
+          {
+            "itemId": 8,
+            "count": 8
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-ak47.png",
+      "selection_type": 10,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 26,
+      "img": {
+        "source": [
+          "img/inv-sniper-out.png",
+          "img/inv-sniper-in.png",
+          "img/inv-sniper-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sniper",
+        "description": "For the very angry shy",
+        "level": 13,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 10
+          },
+          {
+            "itemId": 8,
+            "count": 8
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sniper.png",
+      "selection_type": 11,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 27,
+      "img": {
+        "source": [
+          "img/inv-wood-wall-out.png",
+          "img/inv-wood-wall-in.png",
+          "img/inv-wood-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Wall",
+        "description": "Protected from the wind.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 20
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wood-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
+      },
+      "health": 3000,
+      "selection_type": 21,
+      "texture": "wooden_wall",
+      "inmap_image": null,
+      "connection_type": "wall",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "img": {
+        "source": [
+          "img/inv-stone-wall-out.png",
+          "img/inv-stone-wall-in.png",
+          "img/inv-stone-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Wall",
+        "description": "Saved the 3 little pigs.",
+        "level": 3,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 20
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "isDoor": 0,
+      "ground_img": "img/day-ground-stone-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
+      },
+      "health": 7000,
+      "selection_type": 21,
+      "texture": "stone_wall",
+      "inmap_image": null,
+      "connection_type": "wall",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 29,
+      "img": {
+        "source": [
+          "img/inv-steel-wall-out.png",
+          "img/inv-steel-wall-in.png",
+          "img/inv-steel-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Steel Wall",
+        "description": "Afraid we'll find you?",
+        "level": 6,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 3
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "isDoor": 0,
+      "ground_img": "img/day-ground-steel-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
+      },
+      "health": 15000,
+      "selection_type": 21,
+      "texture": "steel_wall",
+      "inmap_image": null,
+      "connection_type": "wall",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "img": {
+        "source": [
+          "img/inv-wood-door-out.png",
+          "img/inv-wood-door-in.png",
+          "img/inv-wood-door-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Low Door",
+        "description": "You can shoot through it.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 40
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-door.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-door.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-wood-door-broken0.png"
+        },
+        {
+          "source": "img/day-wood-door-broken1.png"
+        },
+        {
+          "source": "img/day-wood-door-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-door.png",
+      "health": 2000,
+      "selection_type": 21,
+      "inmap_image": "img/day-wood-door.png",
+      "connection_type": "base_building",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        65
+      ],
+      "inmapy": [
+        65,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 31,
+      "img": {
+        "source": [
+          "img/inv-stone-door-out.png",
+          "img/inv-stone-door-in.png",
+          "img/inv-stone-door-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Low Door",
+        "description": "You can shoot through it.",
+        "level": 3,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 40
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-stone-door-broken0.png"
+        },
+        {
+          "source": "img/day-stone-door-broken1.png"
+        },
+        {
+          "source": "img/day-stone-door-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-door.png",
+      "health": 5000,
+      "selection_type": 21,
+      "inmap_image": "img/day-stone-door.png",
+      "connection_type": "base_building",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        65
+      ],
+      "inmapy": [
+        65,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 32,
+      "img": {
+        "source": [
+          "img/inv-steel-door-out.png",
+          "img/inv-steel-door-in.png",
+          "img/inv-steel-door-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Steel Low Door",
+        "description": "Killing at home, for more comfort.",
+        "level": 6,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-steel-door-broken0.png"
+        },
+        {
+          "source": "img/day-steel-door-broken1.png"
+        },
+        {
+          "source": "img/day-steel-door-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-steel-door.png",
+      "health": 10000,
+      "selection_type": 21,
+      "inmap_image": "img/day-steel-door.png",
+      "connection_type": "base_building",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        65
+      ],
+      "inmapy": [
+        65,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 33,
+      "img": {
+        "source": [
+          "img/inv-campfire-out.png",
+          "img/inv-campfire-in.png",
+          "img/inv-campfire-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Campfire",
+        "description": "Warm you when you're cold.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 30
+          },
+          {
+            "itemId": 2,
+            "count": 5
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-campfire.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-campfire.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-campfire.png",
+      "health": 150,
+      "selection_type": 21,
+      "inmap_image": "img/day-campfire.png",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 34,
+      "img": {
+        "source": [
+          "img/inv-bullet-9mm-out.png",
+          "img/inv-bullet-9mm-in.png",
+          "img/inv-bullet-9mm-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Bullet",
+        "description": "For 9MM, Desert Eagle, and MP5 ",
+        "level": 6,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 53,
+            "count": 3
+          },
+          {
+            "itemId": 8,
+            "count": 3
+          },
+          {
+            "itemId": 4,
+            "count": 3
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-bullet-9mm.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 35,
+      "img": {
+        "source": [
+          "img/inv-bullet-shotgun-out.png",
+          "img/inv-bullet-shotgun-in.png",
+          "img/inv-bullet-shotgun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Cartridge",
+        "description": "For Shotgun",
+        "level": 10,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 1
+          },
+          {
+            "itemId": 8,
+            "count": 4
+          },
+          {
+            "itemId": 4,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-bullet-shotgun.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 36,
+      "img": {
+        "source": [
+          "img/inv-bullet-sniper-out.png",
+          "img/inv-bullet-sniper-in.png",
+          "img/inv-bullet-sniper-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Heavy Bullet",
+        "description": "For Sniper, and AK47",
+        "level": 11,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 1
+          },
+          {
+            "itemId": 8,
+            "count": 4
+          },
+          {
+            "itemId": 4,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-bullet-sniper.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 37,
+      "img": {
+        "source": [
+          "img/inv-medikit-out.png",
+          "img/inv-medikit-in.png",
+          "img/inv-medikit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Medkit",
+        "description": "Regenerate your life.",
+        "level": 10,
+        "skillCost": 1,
+        "type": 7,
+        "requiredResources": [
+          {
+            "itemId": 6,
+            "count": 2
+          },
+          {
+            "itemId": 38,
+            "count": 1
+          },
+          {
+            "itemId": 7,
+            "count": 2
+          },
+          {
+            "itemId": 8,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 2,
+      "ground_img": "img/day-ground-medikit.png",
+      "selection_type": 17,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 38,
+      "img": {
+        "source": [
+          "img/inv-bandage-out.png",
+          "img/inv-bandage-in.png",
+          "img/inv-bandage-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Bandage",
+        "description": "To heal the boo-boos.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 7,
+        "requiredResources": [
+          {
+            "itemId": 6,
+            "count": 1
+          },
+          {
+            "itemId": 7,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-bandage.png",
+      "selection_type": 18,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 39,
+      "img": {
+        "source": [
+          "img/inv-soda-out.png",
+          "img/inv-soda-in.png",
+          "img/inv-soda-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Soda",
+        "description": "Give energy.",
+        "level": 5,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 115,
+            "count": 1
+          },
+          {
+            "itemId": 74,
+            "count": 1
+          },
+          {
+            "itemId": 79,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-soda.png",
+      "selection_type": 19,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 40,
+      "img": {
+        "source": [
+          "img/inv-MP5-out.png",
+          "img/inv-MP5-in.png",
+          "img/inv-MP5-click.png"
+        ]
+      },
+      "detail": {
+        "name": "MP5",
+        "description": "Not bad.",
+        "level": 10,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 6
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-MP5.png",
+      "selection_type": 20,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 41,
+      "img": {
+        "source": [
+          "img/inv-headscarf-out.png",
+          "img/inv-headscarf-in.png",
+          "img/inv-headscarf-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Headscarf",
+        "description": "Warm you up.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 6,
+            "count": 1
+          },
+          {
+            "itemId": 7,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-headscarf.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 42,
+      "img": {
+        "source": [
+          "img/inv-chapka-out.png",
+          "img/inv-chapka-in.png",
+          "img/inv-chapka-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Chapka",
+        "description": "You look like a real woodcutter.",
+        "level": 7,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 6,
+            "count": 6
+          },
+          {
+            "itemId": 7,
+            "count": 8
+          },
+          {
+            "itemId": 41,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-chapka.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 43,
+      "img": {
+        "source": [
+          "img/inv-coat-out.png",
+          "img/inv-coat-in.png",
+          "img/inv-coat-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Winter Coat",
+        "description": "Is the weather really that cold?",
+        "level": 9,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 6,
+            "count": 15
+          },
+          {
+            "itemId": 7,
+            "count": 20
+          },
+          {
+            "itemId": 42,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-coat.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 44,
+      "img": {
+        "source": [
+          "img/inv-gaz-mask-out.png",
+          "img/inv-gaz-mask-in.png",
+          "img/inv-gaz-mask-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Radiation Mask",
+        "description": "Protect you from Radioactivity.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 1
+          },
+          {
+            "itemId": 6,
+            "count": 1
+          },
+          {
+            "itemId": 7,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-gaz-mask.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 45,
+      "img": {
+        "source": [
+          "img/inv-gaz-protection-out.png",
+          "img/inv-gaz-protection-in.png",
+          "img/inv-gaz-protection-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Min. Radiation Suit",
+        "description": "Previously, on Breaking Bad.",
+        "level": 8,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 2
+          },
+          {
+            "itemId": 8,
+            "count": 2
+          },
+          {
+            "itemId": 6,
+            "count": 4
+          },
+          {
+            "itemId": 7,
+            "count": 4
+          },
+          {
+            "itemId": 44,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-gaz-protection.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 46,
+      "img": {
+        "source": [
+          "img/inv-radiation-suit-out.png",
+          "img/inv-radiation-suit-in.png",
+          "img/inv-radiation-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Radiation Suit",
+        "description": "Let's not grow a second head.",
+        "level": 10,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 6
+          },
+          {
+            "itemId": 8,
+            "count": 4
+          },
+          {
+            "itemId": 6,
+            "count": 8
+          },
+          {
+            "itemId": 7,
+            "count": 20
+          },
+          {
+            "itemId": 45,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-radiation-suit.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 47,
+      "img": {
+        "source": [
+          "img/inv-wood-arrow-out.png",
+          "img/inv-wood-arrow-in.png",
+          "img/inv-wood-arrow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Arrow",
+        "description": "Needed to use bow.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 40
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wood-arrow.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 48,
+      "img": {
+        "source": [
+          "img/inv-campfire-bbq-out.png",
+          "img/inv-campfire-bbq-in.png",
+          "img/inv-campfire-bbq-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Firepit",
+        "description": "Warm up and melt iron slowly.",
+        "level": 3,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 120
+          },
+          {
+            "itemId": 2,
+            "count": 20
+          },
+          {
+            "itemId": 3,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-campfire-bbq.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-campfire-bbq.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-campfire-bbq.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": "img/day-campfire-bbq.png",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "img": {
+        "source": [
+          "img/inv-smelter-out.png",
+          "img/inv-smelter-in.png",
+          "img/inv-smelter-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Smelter",
+        "description": "Melt iron, uranium and alloys",
+        "level": 10,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-smelter.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-smelter.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-smelter-off.png"
+        },
+        {
+          "source": "img/day-smelter-on.png"
+        },
+        {
+          "source": "img/day-smelter-light-up.png"
+        },
+        {
+          "source": "img/day-smelter-light-down.png"
+        }
+      ],
+      "ground_img": "img/day-ground-smelter.png",
+      "health": 3000,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        -80,
+        0,
+        -80
+      ],
+      "inmapy": [
+        -80,
+        0,
+        -80,
+        0
+      ]
+    },
+    {
+      "id": 50,
+      "img": {
+        "source": [
+          "img/inv-wood-door1-out.png",
+          "img/inv-wood-door1-in.png",
+          "img/inv-wood-door1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Door",
+        "description": "Let's hope it holds.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 60
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-door1.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-door1.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-wood-door1-broken0.png"
+        },
+        {
+          "source": "img/day-wood-door1-broken1.png"
+        },
+        {
+          "source": "img/day-wood-door1-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-door1.png",
+      "blockMeshes": {
+        "building": "door_building"
+      },
+      "health": 2500,
+      "selection_type": 21,
+      "texture": "wooden_wall",
+      "inmap_image": "img/day-wood-door1.png",
+      "connection_type": "base_building",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 51,
+      "img": {
+        "source": [
+          "img/inv-stone-door1-out.png",
+          "img/inv-stone-door1-in.png",
+          "img/inv-stone-door1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Door",
+        "description": "Not too heavy to open, I hope.",
+        "level": 3,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 60
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door1.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door1.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-stone-door1-broken0.png"
+        },
+        {
+          "source": "img/day-stone-door1-broken1.png"
+        },
+        {
+          "source": "img/day-stone-door1-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-door1.png",
+      "blockMeshes": {
+        "building": "door_building"
+      },
+      "health": 6000,
+      "selection_type": 21,
+      "texture": "stone_wall",
+      "inmap_image": "img/day-stone-door1.png",
+      "connection_type": "base_building",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 52,
+      "img": {
+        "source": [
+          "img/inv-steel-door1-out.png",
+          "img/inv-steel-door1-in.png",
+          "img/inv-steel-door1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Steel Door",
+        "description": "I guess you're safe.",
+        "level": 6,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 9
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-door1.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-door1.png"
+      },
+      "isDoor": 1,
+      "broken": [
+        {
+          "source": "img/day-steel-door1-broken0.png"
+        },
+        {
+          "source": "img/day-steel-door1-broken1.png"
+        },
+        {
+          "source": "img/day-steel-door1-broken2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-steel-door1.png",
+      "blockMeshes": {
+        "building": "door_building"
+      },
+      "health": 12500,
+      "selection_type": 21,
+      "texture": "steel_wall",
+      "inmap_image": "img/day-steel-door1.png",
+      "connection_type": "base_building",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 53,
+      "img": {
+        "source": [
+          "img/inv-sulfur-out.png",
+          "img/inv-sulfur-in.png",
+          "img/inv-sulfur-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sulfur",
+        "description": "Sulfur in such a cold landscape?",
+        "level": -1,
+        "skillCost": 1,
+        "type": 8,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-sulfur.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 54,
+      "img": {
+        "source": [
+          "img/inv-shaped-uranium-out.png",
+          "img/inv-shaped-uranium-in.png",
+          "img/inv-shaped-uranium-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Shaped Uranium",
+        "description": "Are you out of your mind?",
+        "level": -1,
+        "skillCost": 1,
+        "type": 8,
+        "requiredResources": [
+          {
+            "itemId": 56,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-shaped-uranium.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 55,
+      "img": {
+        "source": [
+          "img/inv-workbench2-out.png",
+          "img/inv-workbench2-in.png",
+          "img/inv-workbench2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Research Bench",
+        "description": "Allow you to make new items",
+        "level": 6,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        280,
+        100,
+        280
+      ],
+      "height": [
+        280,
+        100,
+        280,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-workbench2.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-workbench2.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-workbench2.png",
+      "health": 400,
+      "selection_type": 21,
+      "inmap_image": "img/day-workbench2.png",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        -90,
+        0,
+        -90
+      ],
+      "inmapy": [
+        -90,
+        0,
+        -90,
+        0
+      ]
+    },
+    {
+      "id": 56,
+      "img": {
+        "source": [
+          "img/inv-uranium-out.png",
+          "img/inv-uranium-in.png",
+          "img/inv-uranium-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Uranium",
+        "description": "Do you want to end up as Marie Curie?",
+        "level": -1,
+        "skillCost": 1,
+        "type": 8,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-uranium.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 57,
+      "img": {
+        "source": [
+          "img/inv-weaving-machine-out.png",
+          "img/inv-weaving-machine-in.png",
+          "img/inv-weaving-machine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Weaving Machine",
+        "description": "Allow you to sew clothes",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 80
+          },
+          {
+            "itemId": 2,
+            "count": 20
+          },
+          {
+            "itemId": 6,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-weaving-machine.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-weaving-machine.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-weaving-machine.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": "img/day-weaving-machine.png",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 58,
+      "img": {
+        "source": [
+          "img/inv-gasoline-out.png",
+          "img/inv-gasoline-in.png",
+          "img/inv-gasoline-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gasoline",
+        "description": "Fuel for Smelter",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 13,
+            "count": 4
+          },
+          {
+            "itemId": 53,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-gasoline.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 59,
+      "img": {
+        "source": [
+          "img/inv-sulfur-pickaxe-out.png",
+          "img/inv-sulfur-pickaxe-in.png",
+          "img/inv-sulfur-pickaxe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sulfur Pickaxe",
+        "description": "Mine also Uranium",
+        "level": 9,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 2
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 53,
+            "count": 6
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sulfur-pickaxe.png",
+      "selection_type": 22,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 60,
+      "img": {
+        "source": [
+          "img/inv-chest-out.png",
+          "img/inv-chest-in.png",
+          "img/inv-chest-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood chest",
+        "description": "You can't store food in.",
+        "level": 8,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 50
+          },
+          {
+            "itemId": 2,
+            "count": 20
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-chest.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-chest.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-chest.png",
+      "health": 300,
+      "selection_type": 21,
+      "inmap_image": "img/day-chest.png",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 61,
+      "img": {
+        "source": [
+          "img/inv-fridge-out.png",
+          "img/inv-fridge-in.png",
+          "img/inv-fridge-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Fridge",
+        "description": "Save your food.",
+        "level": 9,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 5
+          },
+          {
+            "itemId": 92,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        50,
+        100,
+        50,
+        100
+      ],
+      "height": [
+        100,
+        50,
+        100,
+        50
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-fridge.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-fridge.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-fridge.png",
+      "health": 300,
+      "selection_type": 21,
+      "inmap_image": "img/day-fridge.png",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        50,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        50
+      ]
+    },
+    {
+      "id": 62,
+      "img": {
+        "source": [
+          "img/inv-wood-floor-out.png",
+          "img/inv-wood-floor-in.png",
+          "img/inv-wood-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood floor",
+        "description": "Players can't spawn on it",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 15
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-floor-broken0.png"
+        },
+        {
+          "source": "img/day-wood-floor-broken1.png"
+        },
+        {
+          "source": "img/day-wood-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-floor-0.png"
+        },
+        {
+          "source": "img/day-wood-floor-1.png"
+        },
+        {
+          "source": "img/day-wood-floor-2.png"
+        },
+        {
+          "source": "img/day-wood-floor-3.png"
+        },
+        {
+          "source": "img/day-wood-floor-4.png"
+        },
+        {
+          "source": "img/day-wood-floor-5.png"
+        },
+        {
+          "source": "img/day-wood-floor-6.png"
+        },
+        {
+          "source": "img/day-wood-floor-7.png"
+        },
+        {
+          "source": "img/day-wood-floor-8.png"
+        },
+        {
+          "source": "img/day-wood-floor-9.png"
+        },
+        {
+          "source": "img/day-wood-floor-10.png"
+        },
+        {
+          "source": "img/day-wood-floor-11.png"
+        },
+        {
+          "source": "img/day-wood-floor-12.png"
+        },
+        {
+          "source": "img/day-wood-floor-13.png"
+        },
+        {
+          "source": "img/day-wood-floor-14.png"
+        },
+        {
+          "source": "img/day-wood-floor-15.png"
+        },
+        {
+          "source": "img/day-wood-floor-16.png"
+        },
+        {
+          "source": "img/day-wood-floor-17.png"
+        },
+        {
+          "source": "img/day-wood-floor-18.png"
+        },
+        {
+          "source": "img/day-wood-floor-19.png"
+        },
+        {
+          "source": "img/day-wood-floor-20.png"
+        },
+        {
+          "source": "img/day-wood-floor-21.png"
+        },
+        {
+          "source": "img/day-wood-floor-22.png"
+        },
+        {
+          "source": "img/day-wood-floor-23.png"
+        },
+        {
+          "source": "img/day-wood-floor-24.png"
+        },
+        {
+          "source": "img/day-wood-floor-25.png"
+        },
+        {
+          "source": "img/day-wood-floor-26.png"
+        },
+        {
+          "source": "img/day-wood-floor-27.png"
+        },
+        {
+          "source": "img/day-wood-floor-28.png"
+        },
+        {
+          "source": "img/day-wood-floor-29.png"
+        },
+        {
+          "source": "img/day-wood-floor-30.png"
+        },
+        {
+          "source": "img/day-wood-floor-31.png"
+        },
+        {
+          "source": "img/day-wood-floor-32.png"
+        },
+        {
+          "source": "img/day-wood-floor-33.png"
+        },
+        {
+          "source": "img/day-wood-floor-34.png"
+        },
+        {
+          "source": "img/day-wood-floor-35.png"
+        },
+        {
+          "source": "img/day-wood-floor-36.png"
+        },
+        {
+          "source": "img/day-wood-floor-37.png"
+        },
+        {
+          "source": "img/day-wood-floor-38.png"
+        },
+        {
+          "source": "img/day-wood-floor-39.png"
+        },
+        {
+          "source": "img/day-wood-floor-40.png"
+        },
+        {
+          "source": "img/day-wood-floor-41.png"
+        },
+        {
+          "source": "img/day-wood-floor-42.png"
+        },
+        {
+          "source": "img/day-wood-floor-43.png"
+        },
+        {
+          "source": "img/day-wood-floor-44.png"
+        },
+        {
+          "source": "img/day-wood-floor-45.png"
+        },
+        {
+          "source": "img/day-wood-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-floor.png",
+      "blockMeshes": {
+        "outward": "floor_outward",
+        "enclosed": "floor_enclosed",
+        "building": "floor_building"
+      },
+      "health": 4000,
+      "selection_type": 21,
+      "texture": "wood_floor",
+      "inmap_image": null,
+      "connection_type": "floor",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 63,
+      "img": {
+        "source": [
+          "img/inv-hammer-out.png",
+          "img/inv-hammer-in.png",
+          "img/inv-hammer-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Hammer",
+        "description": "Destroy walls quickly.",
+        "level": 7,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 100
+          },
+          {
+            "itemId": 8,
+            "count": 10
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-hammer.png",
+      "selection_type": 23,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 64,
+      "img": {
+        "source": [
+          "img/inv-sleeping-bag-out.png",
+          "img/inv-sleeping-bag-in.png",
+          "img/inv-sleeping-bag-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sleeping Bag",
+        "description": "Once dead, you keep your base",
+        "level": 9,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 7,
+            "count": 7
+          },
+          {
+            "itemId": 4,
+            "count": 7
+          },
+          {
+            "itemId": 6,
+            "count": 7
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-sleeping-bag.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-sleeping-bag.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-sleeping-bag.png",
+      "health": 500,
+      "selection_type": 21,
+      "inmap_image": "img/day-sleeping-bag.png",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 65,
+      "img": {
+        "source": [
+          "img/inv-repair-hammer-out.png",
+          "img/inv-repair-hammer-in.png",
+          "img/inv-repair-hammer-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Repair Hammer",
+        "description": "Repair walls but require nails.",
+        "level": 5,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 120
+          },
+          {
+            "itemId": 8,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-repair-hammer.png",
+      "selection_type": 24,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 66,
+      "img": {
+        "source": [
+          "img/inv-nails-out.png",
+          "img/inv-nails-in.png",
+          "img/inv-nails-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Nails",
+        "description": "Needed to repair walls.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-nails.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 67,
+      "img": {
+        "source": [
+          "img/inv-wood-floor-light-out.png",
+          "img/inv-wood-floor-light-in.png",
+          "img/inv-wood-floor-light-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Light Wood Floor",
+        "description": "Players can't spawn on it",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 15
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-woodlight-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-woodlight-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-floor-light-broken0.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-broken1.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-floor-light-0.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-1.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-2.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-3.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-4.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-5.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-6.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-7.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-8.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-9.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-10.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-11.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-12.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-13.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-14.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-15.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-16.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-17.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-18.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-19.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-20.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-21.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-22.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-23.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-24.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-25.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-26.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-27.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-28.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-29.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-30.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-31.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-32.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-33.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-34.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-35.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-36.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-37.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-38.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-39.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-40.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-41.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-42.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-43.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-44.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-45.png"
+        },
+        {
+          "source": "img/day-wood-floor-light-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-floor-light.png",
+      "blockMeshes": {
+        "outward": "floor_outward",
+        "enclosed": "floor_enclosed",
+        "building": "floor_building"
+      },
+      "health": 4000,
+      "selection_type": 21,
+      "texture": "light_wood_floor",
+      "inmap_image": null,
+      "connection_type": "floor",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 68,
+      "img": {
+        "source": [
+          "img/inv-wood-smallwall-out.png",
+          "img/inv-wood-smallwall-in.png",
+          "img/inv-wood-smallwall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Low Wall",
+        "description": "You can shoot through it.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 10
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-wood-smallwall.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-wood-smallwall.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-wood-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-wood-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-wood-smallwalls-39.png"
+        }
+      ],
+      "ground_img": "img/day-ground-wood-smallwall.png",
+      "health": 3000,
+      "selection_type": 21,
+      "texture": "wooden_low_wall",
+      "inmap_image": null,
+      "connection_type": "low_wall",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        65
+      ],
+      "inmapy": [
+        65,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 69,
+      "img": {
+        "source": [
+          "img/inv-stone-smallwall-out.png",
+          "img/inv-stone-smallwall-in.png",
+          "img/inv-stone-smallwall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Low Wall",
+        "description": "You can shoot through it.",
+        "level": 3,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 10
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-smallwalls.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-smallwalls.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-stone-smallwalls-39.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-smallwall.png",
+      "health": 7000,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        65
+      ],
+      "inmapy": [
+        65,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 70,
+      "img": {
+        "source": [
+          "img/inv-steel-smallwall-out.png",
+          "img/inv-steel-smallwall-in.png",
+          "img/inv-steel-smallwall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Low Wall",
+        "description": "You can shoot through it.",
+        "level": 6,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        35,
+        100,
+        35
+      ],
+      "height": [
+        35,
+        100,
+        35,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-smallwalls.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-smallwalls.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-steel-smallwalls-broken0.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-broken1.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-steel-smallwalls-0.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-1.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-2.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-3.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-4.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-5.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-6.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-7.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-8.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-9.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-10.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-11.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-12.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-13.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-14.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-15.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-16.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-17.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-18.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-19.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-20.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-21.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-22.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-23.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-24.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-25.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-26.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-27.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-28.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-29.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-30.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-31.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-32.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-33.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-34.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-35.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-36.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-37.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-38.png"
+        },
+        {
+          "source": "img/day-steel-smallwalls-39.png"
+        }
+      ],
+      "ground_img": "img/day-ground-steel-smallwall.png",
+      "health": 15000,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        65
+      ],
+      "inmapy": [
+        65,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 71,
+      "img": {},
+      "detail": {
+        "type": -2,
+        "requiredResources": []
+      },
+      "isDoor": 0,
+      "ground_img": "",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 72,
+      "img": {
+        "source": [
+          "img/inv-tomato-soup-out.png",
+          "img/inv-tomato-soup-in.png",
+          "img/inv-tomato-soup-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tomato Soup",
+        "description": "Has not yet been opened.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 79,
+            "count": 1
+          },
+          {
+            "itemId": 77,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-tomato-soup.png",
+      "selection_type": 25,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 73,
+      "img": {
+        "source": [
+          "img/inv-syringe-out.png",
+          "img/inv-syringe-in.png",
+          "img/inv-syringe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Syringe",
+        "description": "Useful to make drugs.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 7,
+        "requiredResources": [
+          {
+            "itemId": 90,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-syringe.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 74,
+      "img": {
+        "source": [
+          "img/inv-chemical-component-out.png",
+          "img/inv-chemical-component-in.png",
+          "img/inv-chemical-component-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Chemical Component",
+        "description": "Useful to make a drugs.",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-chemical-component.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 75,
+      "img": {
+        "source": [
+          "img/inv-radaway-out.png",
+          "img/inv-radaway-in.png",
+          "img/inv-radaway-click.png"
+        ]
+      },
+      "detail": {
+        "name": "RadAway",
+        "description": "Reduce your radioactivity a lot.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 7,
+        "requiredResources": [
+          {
+            "itemId": 73,
+            "count": 1
+          },
+          {
+            "itemId": 74,
+            "count": 1
+          },
+          {
+            "itemId": 120,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-radaway.png",
+      "selection_type": 26,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 76,
+      "img": {
+        "source": [
+          "img/inv-tomato-seed-out.png",
+          "img/inv-tomato-seed-in.png",
+          "img/inv-tomato-seed-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tomato Seed",
+        "description": "A fruit or vegetable?",
+        "level": -1,
+        "skillCost": 1,
+        "type": 6,
+        "requiredResources": [
+          {
+            "itemId": 77,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 40,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-tomato.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-tomato.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant0-tomato.png"
+        },
+        {
+          "source": "img/day-plant1-tomato.png"
+        },
+        {
+          "source": "img/day-plant2-tomato.png"
+        },
+        {
+          "source": "img/day-plant3-tomato.png"
+        },
+        {
+          "source": "img/day-plant4-tomato.png"
+        }
+      ],
+      "ground_img": "img/day-ground-tomato-seed.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "inmapy": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "id": 77,
+      "img": {
+        "source": [
+          "img/inv-tomato-out.png",
+          "img/inv-tomato-in.png",
+          "img/inv-tomato-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tomato",
+        "description": "Why did the tomato blush?",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-tomato.png",
+      "selection_type": 27,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 78,
+      "img": {
+        "source": [
+          "img/inv-rotten-tomato-out.png",
+          "img/inv-rotten-tomato-in.png",
+          "img/inv-rotten-tomato-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Tomato",
+        "description": "Go on, have a bite!",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-tomato.png",
+      "selection_type": 28,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 79,
+      "img": {
+        "source": [
+          "img/inv-can-out.png",
+          "img/inv-can-in.png",
+          "img/inv-can-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Can",
+        "description": "Useful to craft food can.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-can.png",
+      "selection_type": 0,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 80,
+      "img": {
+        "source": [
+          "img/inv-wood-crossbow-out.png",
+          "img/inv-wood-crossbow-in.png",
+          "img/inv-wood-crossbow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wood Crossbow",
+        "description": "Shoot faster, reload slower",
+        "level": 6,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 200
+          },
+          {
+            "itemId": 6,
+            "count": 2
+          },
+          {
+            "itemId": 8,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-wood-crossbow.png",
+      "selection_type": 29,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 81,
+      "img": {
+        "source": [
+          "img/inv-wood-crossarrow-out.png",
+          "img/inv-wood-crossarrow-in.png",
+          "img/inv-wood-crossarrow-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Crossbow Arrows",
+        "description": "Needed to use crossbow.",
+        "level": -1,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 40
+          },
+          {
+            "itemId": 8,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wood-crossarrow.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 82,
+      "img": {
+        "source": [
+          "img/inv-nail-gun-out.png",
+          "img/inv-nail-gun-in.png",
+          "img/inv-nail-gun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Nail Gun",
+        "description": "Repair walls from a distance",
+        "level": 7,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 3
+          },
+          {
+            "itemId": 127,
+            "count": 1
+          },
+          {
+            "itemId": 90,
+            "count": 1
+          },
+          {
+            "itemId": 92,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-nail-gun.png",
+      "selection_type": 30,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 83,
+      "img": {
+        "source": [
+          "img/inv-sawed-off-shotgun-out.png",
+          "img/inv-sawed-off-shotgun-in.png",
+          "img/inv-sawed-off-shotgun-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sawed Off",
+        "description": "Shoot less far, do more damages",
+        "level": 13,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 24,
+            "count": 1
+          },
+          {
+            "itemId": 95,
+            "count": 6
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sawed-off-shotgun.png",
+      "selection_type": 31,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 84,
+      "img": {
+        "source": [
+          "img/inv-stone-floor-out.png",
+          "img/inv-stone-floor-in.png",
+          "img/inv-stone-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone floor",
+        "description": "Players can't spawn on it",
+        "level": 4,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 15
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-floor-broken0.png"
+        },
+        {
+          "source": "img/day-stone-floor-broken1.png"
+        },
+        {
+          "source": "img/day-stone-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-floor-0.png"
+        },
+        {
+          "source": "img/day-stone-floor-1.png"
+        },
+        {
+          "source": "img/day-stone-floor-2.png"
+        },
+        {
+          "source": "img/day-stone-floor-3.png"
+        },
+        {
+          "source": "img/day-stone-floor-4.png"
+        },
+        {
+          "source": "img/day-stone-floor-5.png"
+        },
+        {
+          "source": "img/day-stone-floor-6.png"
+        },
+        {
+          "source": "img/day-stone-floor-7.png"
+        },
+        {
+          "source": "img/day-stone-floor-8.png"
+        },
+        {
+          "source": "img/day-stone-floor-9.png"
+        },
+        {
+          "source": "img/day-stone-floor-10.png"
+        },
+        {
+          "source": "img/day-stone-floor-11.png"
+        },
+        {
+          "source": "img/day-stone-floor-12.png"
+        },
+        {
+          "source": "img/day-stone-floor-13.png"
+        },
+        {
+          "source": "img/day-stone-floor-14.png"
+        },
+        {
+          "source": "img/day-stone-floor-15.png"
+        },
+        {
+          "source": "img/day-stone-floor-16.png"
+        },
+        {
+          "source": "img/day-stone-floor-17.png"
+        },
+        {
+          "source": "img/day-stone-floor-18.png"
+        },
+        {
+          "source": "img/day-stone-floor-19.png"
+        },
+        {
+          "source": "img/day-stone-floor-20.png"
+        },
+        {
+          "source": "img/day-stone-floor-21.png"
+        },
+        {
+          "source": "img/day-stone-floor-22.png"
+        },
+        {
+          "source": "img/day-stone-floor-23.png"
+        },
+        {
+          "source": "img/day-stone-floor-24.png"
+        },
+        {
+          "source": "img/day-stone-floor-25.png"
+        },
+        {
+          "source": "img/day-stone-floor-26.png"
+        },
+        {
+          "source": "img/day-stone-floor-27.png"
+        },
+        {
+          "source": "img/day-stone-floor-28.png"
+        },
+        {
+          "source": "img/day-stone-floor-29.png"
+        },
+        {
+          "source": "img/day-stone-floor-30.png"
+        },
+        {
+          "source": "img/day-stone-floor-31.png"
+        },
+        {
+          "source": "img/day-stone-floor-32.png"
+        },
+        {
+          "source": "img/day-stone-floor-33.png"
+        },
+        {
+          "source": "img/day-stone-floor-34.png"
+        },
+        {
+          "source": "img/day-stone-floor-35.png"
+        },
+        {
+          "source": "img/day-stone-floor-36.png"
+        },
+        {
+          "source": "img/day-stone-floor-37.png"
+        },
+        {
+          "source": "img/day-stone-floor-38.png"
+        },
+        {
+          "source": "img/day-stone-floor-39.png"
+        },
+        {
+          "source": "img/day-stone-floor-40.png"
+        },
+        {
+          "source": "img/day-stone-floor-41.png"
+        },
+        {
+          "source": "img/day-stone-floor-42.png"
+        },
+        {
+          "source": "img/day-stone-floor-43.png"
+        },
+        {
+          "source": "img/day-stone-floor-44.png"
+        },
+        {
+          "source": "img/day-stone-floor-45.png"
+        },
+        {
+          "source": "img/day-stone-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-floor.png",
+      "blockMeshes": {
+        "outward": "floor_outward",
+        "enclosed": "floor_enclosed",
+        "building": "floor_building"
+      },
+      "health": 8000,
+      "selection_type": 21,
+      "texture": "stone_floor",
+      "inmap_image": null,
+      "connection_type": "floor",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 85,
+      "img": {
+        "source": [
+          "img/inv-tiling-floor-out.png",
+          "img/inv-tiling-floor-in.png",
+          "img/inv-tiling-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tiling floor",
+        "description": "Players can't spawn on it",
+        "level": 4,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 15
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-tiling-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-tiling-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-tiling-floor-broken0.png"
+        },
+        {
+          "source": "img/day-tiling-floor-broken1.png"
+        },
+        {
+          "source": "img/day-tiling-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-tiling-floor-0.png"
+        },
+        {
+          "source": "img/day-tiling-floor-1.png"
+        },
+        {
+          "source": "img/day-tiling-floor-2.png"
+        },
+        {
+          "source": "img/day-tiling-floor-3.png"
+        },
+        {
+          "source": "img/day-tiling-floor-4.png"
+        },
+        {
+          "source": "img/day-tiling-floor-5.png"
+        },
+        {
+          "source": "img/day-tiling-floor-6.png"
+        },
+        {
+          "source": "img/day-tiling-floor-7.png"
+        },
+        {
+          "source": "img/day-tiling-floor-8.png"
+        },
+        {
+          "source": "img/day-tiling-floor-9.png"
+        },
+        {
+          "source": "img/day-tiling-floor-10.png"
+        },
+        {
+          "source": "img/day-tiling-floor-11.png"
+        },
+        {
+          "source": "img/day-tiling-floor-12.png"
+        },
+        {
+          "source": "img/day-tiling-floor-13.png"
+        },
+        {
+          "source": "img/day-tiling-floor-14.png"
+        },
+        {
+          "source": "img/day-tiling-floor-15.png"
+        },
+        {
+          "source": "img/day-tiling-floor-16.png"
+        },
+        {
+          "source": "img/day-tiling-floor-17.png"
+        },
+        {
+          "source": "img/day-tiling-floor-18.png"
+        },
+        {
+          "source": "img/day-tiling-floor-19.png"
+        },
+        {
+          "source": "img/day-tiling-floor-20.png"
+        },
+        {
+          "source": "img/day-tiling-floor-21.png"
+        },
+        {
+          "source": "img/day-tiling-floor-22.png"
+        },
+        {
+          "source": "img/day-tiling-floor-23.png"
+        },
+        {
+          "source": "img/day-tiling-floor-24.png"
+        },
+        {
+          "source": "img/day-tiling-floor-25.png"
+        },
+        {
+          "source": "img/day-tiling-floor-26.png"
+        },
+        {
+          "source": "img/day-tiling-floor-27.png"
+        },
+        {
+          "source": "img/day-tiling-floor-28.png"
+        },
+        {
+          "source": "img/day-tiling-floor-29.png"
+        },
+        {
+          "source": "img/day-tiling-floor-30.png"
+        },
+        {
+          "source": "img/day-tiling-floor-31.png"
+        },
+        {
+          "source": "img/day-tiling-floor-32.png"
+        },
+        {
+          "source": "img/day-tiling-floor-33.png"
+        },
+        {
+          "source": "img/day-tiling-floor-34.png"
+        },
+        {
+          "source": "img/day-tiling-floor-35.png"
+        },
+        {
+          "source": "img/day-tiling-floor-36.png"
+        },
+        {
+          "source": "img/day-tiling-floor-37.png"
+        },
+        {
+          "source": "img/day-tiling-floor-38.png"
+        },
+        {
+          "source": "img/day-tiling-floor-39.png"
+        },
+        {
+          "source": "img/day-tiling-floor-40.png"
+        },
+        {
+          "source": "img/day-tiling-floor-41.png"
+        },
+        {
+          "source": "img/day-tiling-floor-42.png"
+        },
+        {
+          "source": "img/day-tiling-floor-43.png"
+        },
+        {
+          "source": "img/day-tiling-floor-44.png"
+        },
+        {
+          "source": "img/day-tiling-floor-45.png"
+        },
+        {
+          "source": "img/day-tiling-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-tiling-floor.png",
+      "blockMeshes": {
+        "outward": "floor_outward",
+        "enclosed": "floor_enclosed",
+        "building": "floor_building"
+      },
+      "health": 8000,
+      "selection_type": 21,
+      "texture": "tiling_floor",
+      "inmap_image": null,
+      "connection_type": "floor",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 86,
+      "img": {},
+      "detail": {
+        "type": -2,
+        "requiredResources": []
+      },
+      "isDoor": 0,
+      "ground_img": "",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 87,
+      "img": {
+        "source": [
+          "img/inv-chips-out.png",
+          "img/inv-chips-in.png",
+          "img/inv-chips-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Crisps",
+        "description": "You salty?",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-chips.png",
+      "selection_type": 32,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 88,
+      "img": {
+        "source": [
+          "img/inv-rotten-chips-out.png",
+          "img/inv-rotten-chips-in.png",
+          "img/inv-rotten-chips-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Expired Crisps",
+        "description": "Go on, have a bite!",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-rotten-chips.png",
+      "selection_type": 33,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 89,
+      "img": {
+        "source": [
+          "img/inv-electronic-part-out.png",
+          "img/inv-electronic-part-in.png",
+          "img/inv-electronic-part-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Electronic Parts",
+        "description": "Break TV's and Computers to find it",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-electronic-part.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 90,
+      "img": {
+        "source": [
+          "img/inv-junk-out.png",
+          "img/inv-junk-in.png",
+          "img/inv-junk-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Junk",
+        "description": "Find it in houses",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-junk.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 91,
+      "img": {
+        "source": [
+          "img/inv-wires-out.png",
+          "img/inv-wires-in.png",
+          "img/inv-wires-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Big Wire",
+        "description": "Break big computers in power station (in the city)",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-wires.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 92,
+      "img": {
+        "source": [
+          "img/inv-small-energy-cells-out.png",
+          "img/inv-small-energy-cells-in.png",
+          "img/inv-small-energy-cells-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Energy Cells",
+        "description": "Used for energy weapons/buildings",
+        "level": 6,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 1
+          },
+          {
+            "itemId": 54,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-small-energy-cells.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 93,
+      "img": {
+        "source": [
+          "img/inv-laser-pistol-out.png",
+          "img/inv-laser-pistol-in.png",
+          "img/inv-laser-pistol-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Laser Pistol",
+        "description": "Bullets are faster.",
+        "level": 14,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 54,
+            "count": 2
+          },
+          {
+            "itemId": 91,
+            "count": 1
+          },
+          {
+            "itemId": 89,
+            "count": 2
+          },
+          {
+            "itemId": 95,
+            "count": 1
+          },
+          {
+            "itemId": 8,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-laser-pistol.png",
+      "selection_type": 34,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 94,
+      "img": {
+        "source": [
+          "img/inv-workbench3-out.png",
+          "img/inv-workbench3-in.png",
+          "img/inv-workbench3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tesla Bench",
+        "description": "Allow you to make powerful items",
+        "level": 10,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 4
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 89,
+            "count": 3
+          },
+          {
+            "itemId": 91,
+            "count": 4
+          },
+          {
+            "itemId": 54,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        260,
+        100,
+        260
+      ],
+      "height": [
+        260,
+        100,
+        260,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-workbench3.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-workbench3.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-workbench3.png"
+        },
+        {
+          "source": "img/day-workbench3-1.png"
+        },
+        {
+          "source": "img/day-workbench3-2.png"
+        },
+        {
+          "source": "img/day-workbench3-3.png"
+        }
+      ],
+      "ground_img": "img/day-ground-workbench3.png",
+      "health": 3000,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        -80,
+        0,
+        -80
+      ],
+      "inmapy": [
+        -80,
+        0,
+        -80,
+        0
+      ]
+    },
+    {
+      "id": 95,
+      "img": {
+        "source": [
+          "img/inv-alloys-out.png",
+          "img/inv-alloys-in.png",
+          "img/inv-alloys-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Alloys",
+        "description": "To craft powerful items",
+        "level": -1,
+        "skillCost": 1,
+        "type": 8,
+        "requiredResources": [
+          {
+            "itemId": 3,
+            "count": 1
+          },
+          {
+            "itemId": 90,
+            "count": 1
+          },
+          {
+            "itemId": 53,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-alloys.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 96,
+      "img": {
+        "source": [
+          "img/inv-sulfur-axe-out.png",
+          "img/inv-sulfur-axe-in.png",
+          "img/inv-sulfur-axe-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Sulfur Axe",
+        "description": "You look cool with it.",
+        "level": 10,
+        "skillCost": 1,
+        "type": 4,
+        "requiredResources": [
+          {
+            "itemId": 18,
+            "count": 1
+          },
+          {
+            "itemId": 95,
+            "count": 8
+          },
+          {
+            "itemId": 8,
+            "count": 10
+          },
+          {
+            "itemId": 53,
+            "count": 20
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-sulfur-axe.png",
+      "selection_type": 35,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 97,
+      "img": {
+        "source": [
+          "img/inv-landmine-out.png",
+          "img/inv-landmine-in.png",
+          "img/inv-landmine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Landmine",
+        "description": "When you feel it, it's too late",
+        "level": 9,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 4
+          },
+          {
+            "itemId": 90,
+            "count": 1
+          },
+          {
+            "itemId": 53,
+            "count": 2
+          },
+          {
+            "itemId": 4,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 20,
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-landmine.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-landmine.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-landmine-0.png"
+        },
+        {
+          "source": "img/day-landmine-1.png"
+        },
+        {
+          "source": "img/day-landmine-2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-landmine.png",
+      "health": 5,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "inmapy": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "id": 98,
+      "img": {
+        "source": [
+          "img/inv-dynamite-out.png",
+          "img/inv-dynamite-in.png",
+          "img/inv-dynamite-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Dynamite",
+        "description": "Get out of here, it gonna blow!",
+        "level": 9,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 6,
+            "count": 1
+          },
+          {
+            "itemId": 4,
+            "count": 2
+          },
+          {
+            "itemId": 53,
+            "count": 2
+          },
+          {
+            "itemId": 90,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 10,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-dynamite.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-dynamite.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-dynamite.png"
+        },
+        {
+          "source": "img/dynamite-yellow.png"
+        }
+      ],
+      "ground_img": "img/day-ground-dynamite.png",
+      "health": 100,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 99,
+      "img": {
+        "source": [
+          "img/inv-C4-out.png",
+          "img/inv-C4-in.png",
+          "img/inv-C4-click.png"
+        ]
+      },
+      "detail": {
+        "name": "C4",
+        "description": "Explode when you hit the trigger!",
+        "level": 16,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 98,
+            "count": 2
+          },
+          {
+            "itemId": 127,
+            "count": 1
+          },
+          {
+            "itemId": 95,
+            "count": 2
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-C4.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-C4.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-C4.png"
+        },
+        {
+          "source": "img/C4-red.png"
+        }
+      ],
+      "ground_img": "img/day-ground-C4.png",
+      "health": 100,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 100,
+      "img": {
+        "source": [
+          "img/inv-joystick-out.png",
+          "img/inv-joystick-in.png",
+          "img/inv-joystick-click.png"
+        ]
+      },
+      "detail": {
+        "name": "C4 Trigger",
+        "description": "Don't press the button or else...",
+        "level": 16,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 5
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          },
+          {
+            "itemId": 92,
+            "count": 8
+          },
+          {
+            "itemId": 127,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-joystick.png",
+      "selection_type": 36,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 101,
+      "img": {
+        "source": [
+          "img/inv-composter-out.png",
+          "img/inv-composter-in.png",
+          "img/inv-composter-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Compost",
+        "description": "Allows to accelerate rotting",
+        "level": 8,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 4
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-composter.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-composter.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-composter-off.png"
+        },
+        {
+          "source": "img/day-composter.png"
+        }
+      ],
+      "ground_img": "img/day-ground-composter.png",
+      "health": 500,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 102,
+      "img": {
+        "source": [
+          "img/inv-metal-helmet-out.png",
+          "img/inv-metal-helmet-in.png",
+          "img/inv-metal-helmet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Metal Helmet",
+        "description": "Protects you from melee weapons",
+        "level": -1,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 3
+          },
+          {
+            "itemId": 5,
+            "count": 3
+          },
+          {
+            "itemId": 7,
+            "count": 3
+          },
+          {
+            "itemId": 66,
+            "count": 80
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-metal-helmet.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 103,
+      "img": {
+        "source": [
+          "img/inv-welding-helmet-out.png",
+          "img/inv-welding-helmet-in.png",
+          "img/inv-welding-helmet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Welding Helmet",
+        "description": "Protects you from melee weapons",
+        "level": 7,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 10
+          },
+          {
+            "itemId": 95,
+            "count": 2
+          },
+          {
+            "itemId": 7,
+            "count": 3
+          },
+          {
+            "itemId": 66,
+            "count": 160
+          },
+          {
+            "itemId": 102,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-welding-helmet.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 104,
+      "img": {
+        "source": [
+          "img/inv-gladiator-helmet-out.png",
+          "img/inv-gladiator-helmet-in.png",
+          "img/inv-gladiator-helmet-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Gladiator Helmet",
+        "description": "Strength and honor.",
+        "level": 17,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 12
+          },
+          {
+            "itemId": 95,
+            "count": 6
+          },
+          {
+            "itemId": 7,
+            "count": 4
+          },
+          {
+            "itemId": 66,
+            "count": 255
+          },
+          {
+            "itemId": 103,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-gladiator-helmet.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 105,
+      "img": {
+        "source": [
+          "img/inv-leather-jacket-out.png",
+          "img/inv-leather-jacket-in.png",
+          "img/inv-leather-jacket-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Leather Jacket",
+        "description": "Protects you from guns",
+        "level": -1,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 6,
+            "count": 2
+          },
+          {
+            "itemId": 7,
+            "count": 4
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-leather-jacket.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 106,
+      "img": {
+        "source": [
+          "img/inv-kevlar-suit-out.png",
+          "img/inv-kevlar-suit-in.png",
+          "img/inv-kevlar-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Kevlar Suit",
+        "description": "Protects you from guns",
+        "level": 12,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 6,
+            "count": 4
+          },
+          {
+            "itemId": 7,
+            "count": 6
+          },
+          {
+            "itemId": 95,
+            "count": 2
+          },
+          {
+            "itemId": 105,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-kevlar-suit.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 107,
+      "img": {
+        "source": [
+          "img/inv-SWAT-suit-out.png",
+          "img/inv-SWAT-suit-in.png",
+          "img/inv-SWAT-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "SWAT Suit",
+        "description": "Protects you from guns",
+        "level": 18,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 10
+          },
+          {
+            "itemId": 6,
+            "count": 10
+          },
+          {
+            "itemId": 7,
+            "count": 10
+          },
+          {
+            "itemId": 95,
+            "count": 4
+          },
+          {
+            "itemId": 106,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-SWAT-suit.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 108,
+      "img": {
+        "source": [
+          "img/inv-protective-suit-out.png",
+          "img/inv-protective-suit-in.png",
+          "img/inv-protective-suit-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Protective Suit",
+        "description": "Protects you from explosives",
+        "level": 12,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 6,
+            "count": 6
+          },
+          {
+            "itemId": 7,
+            "count": 6
+          },
+          {
+            "itemId": 95,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-protective-suit.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 109,
+      "img": {
+        "source": [
+          "img/inv-tesla-0-out.png",
+          "img/inv-tesla-0-in.png",
+          "img/inv-tesla-0-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Power Armor",
+        "description": "Protects you from energy weapons",
+        "level": 10,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 20
+          },
+          {
+            "itemId": 54,
+            "count": 2
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          },
+          {
+            "itemId": 91,
+            "count": 2
+          },
+          {
+            "itemId": 95,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-tesla-0.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 110,
+      "img": {
+        "source": [
+          "img/inv-tesla-armor-out.png",
+          "img/inv-tesla-armor-in.png",
+          "img/inv-tesla-armor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tesla Armor",
+        "description": "Protects you from energy weapons",
+        "level": 18,
+        "skillCost": 3,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 109,
+            "count": 1
+          },
+          {
+            "itemId": 54,
+            "count": 10
+          },
+          {
+            "itemId": 89,
+            "count": 5
+          },
+          {
+            "itemId": 91,
+            "count": 5
+          },
+          {
+            "itemId": 95,
+            "count": 10
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-tesla-armor.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 111,
+      "img": {
+        "source": [
+          "img/inv-wood-spike-out.png",
+          "img/inv-wood-spike-in.png",
+          "img/inv-wood-spike-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Wooden Spike",
+        "description": "Hurt and slow down",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 80
+          }
+        ]
+      },
+      "stack": 40,
+      "width": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "height": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-wood-spike.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-wood-spike.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wood-spike.png",
+      "health": 200,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "inmapy": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "id": 112,
+      "img": {
+        "source": [
+          "img/inv-laser-submachine-out.png",
+          "img/inv-laser-submachine-in.png",
+          "img/inv-laser-submachine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Laser Submachine",
+        "description": "It's the best weapon",
+        "level": 14,
+        "skillCost": 2,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 10
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 54,
+            "count": 6
+          },
+          {
+            "itemId": 91,
+            "count": 2
+          },
+          {
+            "itemId": 89,
+            "count": 3
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-laser-submachine.png",
+      "selection_type": 37,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 113,
+      "img": {
+        "source": [
+          "img/inv-grenade-out.png",
+          "img/inv-grenade-in.png",
+          "img/inv-grenade-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Grenade",
+        "description": "Explodes when you throw it away.",
+        "level": 10,
+        "skillCost": 1,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 2
+          },
+          {
+            "itemId": 90,
+            "count": 2
+          },
+          {
+            "itemId": 53,
+            "count": 2
+          },
+          {
+            "itemId": 4,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 10,
+      "ground_img": "img/day-ground-grenade.png",
+      "selection_type": 38,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 114,
+      "img": {
+        "source": [
+          "img/inv-super-hammer-out.png",
+          "img/inv-super-hammer-in.png",
+          "img/inv-super-hammer-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Super Hammer",
+        "description": "Destroy indestructible walls.",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-super-hammer.png",
+      "selection_type": 39,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 115,
+      "img": {
+        "source": [
+          "img/inv-ghoul-blood-out.png",
+          "img/inv-ghoul-blood-in.png",
+          "img/inv-ghoul-blood-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Ghoul Blood",
+        "description": "Find it on speedy ghouls",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-ghoul-blood.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 116,
+      "img": {
+        "source": [
+          "img/inv-camouflage-gear-out.png",
+          "img/inv-camouflage-gear-in.png",
+          "img/inv-camouflage-gear-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Camouflage Gear",
+        "description": "Hide you in the forest",
+        "level": -1,
+        "skillCost": 1,
+        "type": 2,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 90
+          },
+          {
+            "itemId": 6,
+            "count": 2
+          },
+          {
+            "itemId": 7,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-camouflage-gear.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 117,
+      "img": {
+        "source": [
+          "img/inv-agitator-out.png",
+          "img/inv-agitator-in.png",
+          "img/inv-agitator-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Agitator",
+        "description": "Allows to craft drugs",
+        "level": 8,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-agitator.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-agitator.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-agitator1-off.png"
+        },
+        {
+          "source": "img/day-agitator1-on.png"
+        },
+        {
+          "source": "img/day-agitator-1.png"
+        },
+        {
+          "source": "img/day-agitator-2.png"
+        }
+      ],
+      "ground_img": "img/day-ground-agitator.png",
+      "health": 500,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 118,
+      "img": {
+        "source": [
+          "img/inv-ghoul-drug-out.png",
+          "img/inv-ghoul-drug-in.png",
+          "img/inv-ghoul-drug-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Ghoul Drug",
+        "description": "Ghouls does not attack you.",
+        "level": 10,
+        "skillCost": 1,
+        "type": 7,
+        "requiredResources": [
+          {
+            "itemId": 73,
+            "count": 1
+          },
+          {
+            "itemId": 74,
+            "count": 1
+          },
+          {
+            "itemId": 120,
+            "count": 1
+          },
+          {
+            "itemId": 121,
+            "count": 1
+          },
+          {
+            "itemId": 115,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-ghoul-drug.png",
+      "selection_type": 40,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 119,
+      "img": {
+        "source": [
+          "img/inv-mushroom1-out.png",
+          "img/inv-mushroom1-in.png",
+          "img/inv-mushroom1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Amanita",
+        "description": "Poisoned, really dangerous",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-mushroom1.png",
+      "selection_type": 41,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 120,
+      "img": {
+        "source": [
+          "img/inv-mushroom2-out.png",
+          "img/inv-mushroom2-in.png",
+          "img/inv-mushroom2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Boletus",
+        "description": "Can be eaten.",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-mushroom2.png",
+      "selection_type": 42,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 121,
+      "img": {
+        "source": [
+          "img/inv-mushroom3-out.png",
+          "img/inv-mushroom3-in.png",
+          "img/inv-mushroom3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Russula",
+        "description": "Can be eaten.",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-mushroom3.png",
+      "selection_type": 43,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 122,
+      "img": {
+        "source": [
+          "img/inv-rotten-mushroom1-out.png",
+          "img/inv-rotten-mushroom1-in.png",
+          "img/inv-rotten-mushroom1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Mushroom",
+        "description": "Go on, have a bite!",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-mushroom1.png",
+      "selection_type": 44,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 123,
+      "img": {
+        "source": [
+          "img/inv-rotten-mushroom2-out.png",
+          "img/inv-rotten-mushroom2-in.png",
+          "img/inv-rotten-mushroom2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Mushroom",
+        "description": "Go on, have a bite!",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-mushroom2.png",
+      "selection_type": 45,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 124,
+      "img": {
+        "source": [
+          "img/inv-rotten-mushroom3-out.png",
+          "img/inv-rotten-mushroom3-in.png",
+          "img/inv-rotten-mushroom3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Mushroom",
+        "description": "Go on, have a bite!",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-mushroom3.png",
+      "selection_type": 46,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 125,
+      "img": {
+        "source": [
+          "img/inv-lapadoine-out.png",
+          "img/inv-lapadoine-in.png",
+          "img/inv-lapadoine-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Lapadone",
+        "description": "You are faster a certain time.",
+        "level": 14,
+        "skillCost": 1,
+        "type": 7,
+        "requiredResources": [
+          {
+            "itemId": 73,
+            "count": 1
+          },
+          {
+            "itemId": 74,
+            "count": 1
+          },
+          {
+            "itemId": 119,
+            "count": 1
+          },
+          {
+            "itemId": 115,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-lapadoine.png",
+      "selection_type": 47,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 126,
+      "img": {
+        "source": [
+          "img/inv-lapabot-out.png",
+          "img/inv-lapabot-in.png",
+          "img/inv-lapabot-click.png"
+        ]
+      },
+      "detail": {
+        "name": "LapaBot",
+        "description": "Repair your base for you",
+        "level": 8,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          },
+          {
+            "itemId": 127,
+            "count": 1
+          },
+          {
+            "itemId": 95,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-lapabot.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-lapabot.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/lapabot0.png"
+        },
+        {
+          "source": "img/lapabot1.png"
+        },
+        {
+          "source": "img/lapabot2.png"
+        },
+        {
+          "source": "img/lapabot3.png"
+        },
+        {
+          "source": "img/lapabot4.png"
+        }
+      ],
+      "ground_img": "img/day-ground-lapabot.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "inmapy": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "id": 127,
+      "img": {
+        "source": [
+          "img/inv-small-wire-out.png",
+          "img/inv-small-wire-in.png",
+          "img/inv-small-wire-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Small Wire",
+        "description": "Find it on TV's and computers in abandonned houses",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 255,
+      "ground_img": "img/day-ground-small-wire.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 128,
+      "img": {
+        "source": [
+          "img/inv-pumpkin-out.png",
+          "img/inv-pumpkin-in.png",
+          "img/inv-pumpkin-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Pumpkin",
+        "description": "Eat it or craft a pumpkin ghoul",
+        "level": -1,
+        "skillCost": 1,
+        "type": -2,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-pumpkin.png",
+      "selection_type": 48,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 129,
+      "img": {
+        "source": [
+          "img/inv-rotten-pumpkin-out.png",
+          "img/inv-rotten-pumpkin-in.png",
+          "img/inv-rotten-pumpkin-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Pumpkin",
+        "description": "You should not click",
+        "level": -1,
+        "skillCost": 1,
+        "type": -2,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-pumpkin.png",
+      "selection_type": 49,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 130,
+      "img": {
+        "source": [
+          "img/inv-ghoul5-out.png",
+          "img/inv-ghoul5-in.png",
+          "img/inv-ghoul5-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Ghoul Seed",
+        "description": "Plant your pumpkin pet",
+        "level": 99,
+        "skillCost": 1,
+        "type": -2,
+        "requiredResources": [
+          {
+            "itemId": 128,
+            "count": 1
+          },
+          {
+            "itemId": 115,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 40,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-root.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-root.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-root0-ghoul.png"
+        },
+        {
+          "source": "img/day-root1-ghoul.png"
+        },
+        {
+          "source": "img/day-root2-ghoul.png"
+        },
+        {
+          "source": "img/day-root3-ghoul.png"
+        },
+        {
+          "source": "img/day-root4-ghoul.png"
+        }
+      ],
+      "ground_img": "img/day-ground-ghoul5.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "inmapy": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "id": 131,
+      "img": {
+        "source": [
+          "img/inv-extractor-out.png",
+          "img/inv-extractor-in.png",
+          "img/inv-extractor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Extractor",
+        "description": "Allows you to extract minerals from the ground",
+        "level": 12,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 2
+          },
+          {
+            "itemId": 8,
+            "count": 10
+          },
+          {
+            "itemId": 54,
+            "count": 2
+          },
+          {
+            "itemId": 127,
+            "count": 2
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-extractor.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-extractor.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-extractor.png"
+        },
+        {
+          "source": "img/day-extractor-rotate.png"
+        },
+        {
+          "source": "img/day-extractor-off.png"
+        }
+      ],
+      "ground_img": "img/day-ground-extractor.png",
+      "health": 500,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 132,
+      "img": {
+        "source": [
+          "img/inv-antidote-out.png",
+          "img/inv-antidote-in.png",
+          "img/inv-antidote-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Antidote",
+        "description": "Remove the withdrawal effects (pink skin)",
+        "level": 14,
+        "skillCost": 1,
+        "type": 7,
+        "requiredResources": [
+          {
+            "itemId": 73,
+            "count": 1
+          },
+          {
+            "itemId": 74,
+            "count": 1
+          },
+          {
+            "itemId": 119,
+            "count": 1
+          },
+          {
+            "itemId": 133,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-antidote.png",
+      "selection_type": 50,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 133,
+      "img": {
+        "source": [
+          "img/inv-antidote-flower-out.png",
+          "img/inv-antidote-flower-in.png",
+          "img/inv-antidote-flower-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rare Flower",
+        "description": "Use it to make an antidote",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 5,
+      "ground_img": "img/day-ground-antidote-flower.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 134,
+      "img": {
+        "source": [
+          "img/inv-seed-tree-out.png",
+          "img/inv-seed-tree-in.png",
+          "img/inv-seed-tree-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tree Seed",
+        "description": "Plant your forest",
+        "level": -1,
+        "skillCost": 1,
+        "type": 6,
+        "requiredResources": [
+          {
+            "itemId": 135,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 100,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-plant-tree.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-plant-tree.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/day-plant-tree0.png"
+        },
+        {
+          "source": "img/day-plant-tree1.png"
+        },
+        {
+          "source": "img/day-plant-tree2.png"
+        },
+        {
+          "source": "img/day-plant-tree3.png"
+        },
+        {
+          "source": "img/day-plant4-orange.png"
+        }
+      ],
+      "ground_img": "img/day-ground-seed-tree.png",
+      "health": 150,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "inmapy": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "id": 135,
+      "img": {
+        "source": [
+          "img/inv-acorn-out.png",
+          "img/inv-acorn-in.png",
+          "img/inv-acorn-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Acorn",
+        "description": "Eat it or plant a tree",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-acorn.png",
+      "selection_type": 51,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 136,
+      "img": {
+        "source": [
+          "img/inv-rotten-acorn-out.png",
+          "img/inv-rotten-acorn-in.png",
+          "img/inv-rotten-acorn-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Rotten Acorn",
+        "description": "Not really good",
+        "level": -1,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": []
+      },
+      "stack": 20,
+      "ground_img": "img/day-ground-rotten-acorn.png",
+      "selection_type": 52,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 137,
+      "img": {
+        "source": [
+          "img/inv-laser-sniper-out.png",
+          "img/inv-laser-sniper-in.png",
+          "img/inv-laser-sniper-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Laser Sniper",
+        "description": "Faster than a sniper",
+        "level": 14,
+        "skillCost": 2,
+        "type": 5,
+        "requiredResources": [
+          {
+            "itemId": 95,
+            "count": 8
+          },
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 54,
+            "count": 5
+          },
+          {
+            "itemId": 91,
+            "count": 3
+          },
+          {
+            "itemId": 89,
+            "count": 3
+          }
+        ]
+      },
+      "stack": 1,
+      "ground_img": "img/day-ground-laser-sniper.png",
+      "selection_type": 53,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 138,
+      "img": {
+        "source": [
+          "img/inv-hal-bot-out.png",
+          "img/inv-hal-bot-in.png",
+          "img/inv-hal-bot-click.png"
+        ]
+      },
+      "detail": {
+        "name": "HAL Bot",
+        "description": "Protect you",
+        "level": 8,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 6
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          },
+          {
+            "itemId": 127,
+            "count": 1
+          },
+          {
+            "itemId": 95,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 5,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-hal-bot.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-hal-bot.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/hal-bot0.png"
+        },
+        {
+          "source": "img/hal-bot1.png"
+        },
+        {
+          "source": "img/hal-bot2.png"
+        },
+        {
+          "source": "img/hal-bot3.png"
+        },
+        {
+          "source": "img/hal-bot4.png"
+        }
+      ],
+      "ground_img": "img/day-ground-hal-bot.png",
+      "health": 400,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "inmapy": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "id": 139,
+      "img": {
+        "source": [
+          "img/inv-tesla-bot-out.png",
+          "img/inv-tesla-bot-in.png",
+          "img/inv-tesla-bot-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Tesla Bot",
+        "description": "Protect you",
+        "level": 16,
+        "skillCost": 1,
+        "type": 1,
+        "requiredResources": [
+          {
+            "itemId": 54,
+            "count": 3
+          },
+          {
+            "itemId": 89,
+            "count": 1
+          },
+          {
+            "itemId": 127,
+            "count": 3
+          },
+          {
+            "itemId": 91,
+            "count": 3
+          },
+          {
+            "itemId": 95,
+            "count": 3
+          }
+        ]
+      },
+      "stack": 5,
+      "width": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "height": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-tesla-bot.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-tesla-bot.png"
+      },
+      "isDoor": 0,
+      "instation": [
+        {
+          "source": "img/tesla-bot0.png"
+        },
+        {
+          "source": "img/tesla-bot1.png"
+        },
+        {
+          "source": "img/tesla-bot2.png"
+        },
+        {
+          "source": "img/tesla-bot3.png"
+        },
+        {
+          "source": "img/tesla-bot4.png"
+        }
+      ],
+      "ground_img": "img/day-ground-tesla-bot.png",
+      "health": 500,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        35,
+        35,
+        35,
+        35
+      ],
+      "inmapy": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "id": 148,
+      "img": {
+        "source": [
+          "img/inv-lamp-white-out.png",
+          "img/inv-lamp-white-in.png",
+          "img/inv-lamp-white-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Lamp",
+        "description": "Turn on when connected, damage ghoul",
+        "level": -1,
+        "skillCost": 1,
+        "type": 9,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 1
+          },
+          {
+            "itemId": 127,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-lamp.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-lamp.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-lamp-white.png",
+      "health": 600,
+      "selection_type": 21,
+      "inmap_image": "img/day-lamp-off.png",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 151,
+      "img": {
+        "source": [
+          "img/inv-platform-out.png",
+          "img/inv-platform-in.png",
+          "img/inv-platform-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Platform",
+        "description": "Weight detector",
+        "level": -1,
+        "skillCost": 1,
+        "type": 9,
+        "requiredResources": [
+          {
+            "itemId": 8,
+            "count": 1
+          },
+          {
+            "itemId": 127,
+            "count": 1
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-platform-off.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-platform-off.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-platform.png",
+      "health": 250,
+      "selection_type": 21,
+      "inmap_image": "img/day-platform-off.png",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 152,
+      "img": {
+        "source": [
+          "img/inv-stone-cave-out.png",
+          "img/inv-stone-cave-in.png",
+          "img/inv-stone-cave-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Stone Cave",
+        "description": "Build mountains.",
+        "level": 99,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 140
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-stone-cave.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-stone-cave.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-stone-cave-broken0.png"
+        },
+        {
+          "source": "img/day-stone-cave-broken1.png"
+        },
+        {
+          "source": "img/day-stone-cave-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-stone-cave0.png"
+        },
+        {
+          "source": "img/day-stone-cave1.png"
+        },
+        {
+          "source": "img/day-stone-cave2.png"
+        },
+        {
+          "source": "img/day-stone-cave3.png"
+        },
+        {
+          "source": "img/day-stone-cave4.png"
+        },
+        {
+          "source": "img/day-stone-cave5.png"
+        },
+        {
+          "source": "img/day-stone-cave6.png"
+        },
+        {
+          "source": "img/day-stone-cave7.png"
+        },
+        {
+          "source": "img/day-stone-cave8.png"
+        },
+        {
+          "source": "img/day-stone-cave9.png"
+        },
+        {
+          "source": "img/day-stone-cave10.png"
+        },
+        {
+          "source": "img/day-stone-cave11.png"
+        },
+        {
+          "source": "img/day-stone-cave12.png"
+        },
+        {
+          "source": "img/day-stone-cave13.png"
+        },
+        {
+          "source": "img/day-stone-cave14.png"
+        },
+        {
+          "source": "img/day-stone-cave15.png"
+        },
+        {
+          "source": "img/day-stone-cave16.png"
+        },
+        {
+          "source": "img/day-stone-cave17.png"
+        },
+        {
+          "source": "img/day-stone-cave18.png"
+        },
+        {
+          "source": "img/day-stone-cave19.png"
+        },
+        {
+          "source": "img/day-stone-cave20.png"
+        },
+        {
+          "source": "img/day-stone-cave21.png"
+        },
+        {
+          "source": "img/day-stone-cave22.png"
+        },
+        {
+          "source": "img/day-stone-cave23.png"
+        },
+        {
+          "source": "img/day-stone-cave24.png"
+        },
+        {
+          "source": "img/day-stone-cave25.png"
+        },
+        {
+          "source": "img/day-stone-cave26.png"
+        },
+        {
+          "source": "img/day-stone-cave27.png"
+        },
+        {
+          "source": "img/day-stone-cave28.png"
+        },
+        {
+          "source": "img/day-stone-cave29.png"
+        },
+        {
+          "source": "img/day-stone-cave30.png"
+        },
+        {
+          "source": "img/day-stone-cave31.png"
+        },
+        {
+          "source": "img/day-stone-cave32.png"
+        },
+        {
+          "source": "img/day-stone-cave33.png"
+        },
+        {
+          "source": "img/day-stone-cave34.png"
+        },
+        {
+          "source": "img/day-stone-cave35.png"
+        },
+        {
+          "source": "img/day-stone-cave36.png"
+        },
+        {
+          "source": "img/day-stone-cave37.png"
+        },
+        {
+          "source": "img/day-stone-cave38.png"
+        },
+        {
+          "source": "img/day-stone-cave39.png"
+        },
+        {
+          "source": "img/day-stone-cave40.png"
+        },
+        {
+          "source": "img/day-stone-cave41.png"
+        },
+        {
+          "source": "img/day-stone-cave42.png"
+        },
+        {
+          "source": "img/day-stone-cave43.png"
+        },
+        {
+          "source": "img/day-stone-cave44.png"
+        },
+        {
+          "source": "img/day-stone-cave45.png"
+        },
+        {
+          "source": "img/day-stone-cave46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-stone-cave.png",
+      "health": 300,
+      "selection_type": 21,
+      "inmap_image": null,
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 153,
+      "img": {
+        "source": [
+          "img/inv-bunker-wall-out.png",
+          "img/inv-bunker-wall-in.png",
+          "img/inv-bunker-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Bunker Wall",
+        "description": "Good old memory of the wasteland.",
+        "level": 99,
+        "skillCost": 1,
+        "type": -1,
+        "requiredResources": [
+          {
+            "itemId": 2,
+            "count": 150
+          },
+          {
+            "itemId": 8,
+            "count": 12
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/clear-blue-bunker-wall.png"
+      },
+      "notputableimg": {
+        "source": "img/redprint-bunker-wall.png"
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-bunker-wall.png",
+      "blockMeshes": {
+        "inward": "cube_block_inward",
+        "outward": "cube_block_outward",
+        "side": "cube_block_side",
+        "enclosed": "cube_block_enclosed",
+        "building": "cube_block_building"
+      },
+      "health": 10000,
+      "selection_type": 21,
+      "texture": "bunker_wall",
+      "inmap_image": null,
+      "connection_type": "wall",
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 154,
+      "img": {
+        "source": [
+          "img/inv-mustard-floor-out.png",
+          "img/inv-mustard-floor-in.png",
+          "img/inv-mustard-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Golden Floor",
+        "description": "Players can't spawn on it",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 7,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-mustard-floor-broken0.png"
+        },
+        {
+          "source": "img/day-mustard-floor-broken1.png"
+        },
+        {
+          "source": "img/day-mustard-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-mustard-floor-0.png"
+        },
+        {
+          "source": "img/day-mustard-floor-1.png"
+        },
+        {
+          "source": "img/day-mustard-floor-2.png"
+        },
+        {
+          "source": "img/day-mustard-floor-3.png"
+        },
+        {
+          "source": "img/day-mustard-floor-4.png"
+        },
+        {
+          "source": "img/day-mustard-floor-5.png"
+        },
+        {
+          "source": "img/day-mustard-floor-6.png"
+        },
+        {
+          "source": "img/day-mustard-floor-7.png"
+        },
+        {
+          "source": "img/day-mustard-floor-8.png"
+        },
+        {
+          "source": "img/day-mustard-floor-9.png"
+        },
+        {
+          "source": "img/day-mustard-floor-10.png"
+        },
+        {
+          "source": "img/day-mustard-floor-11.png"
+        },
+        {
+          "source": "img/day-mustard-floor-12.png"
+        },
+        {
+          "source": "img/day-mustard-floor-13.png"
+        },
+        {
+          "source": "img/day-mustard-floor-14.png"
+        },
+        {
+          "source": "img/day-mustard-floor-15.png"
+        },
+        {
+          "source": "img/day-mustard-floor-16.png"
+        },
+        {
+          "source": "img/day-mustard-floor-17.png"
+        },
+        {
+          "source": "img/day-mustard-floor-18.png"
+        },
+        {
+          "source": "img/day-mustard-floor-19.png"
+        },
+        {
+          "source": "img/day-mustard-floor-20.png"
+        },
+        {
+          "source": "img/day-mustard-floor-21.png"
+        },
+        {
+          "source": "img/day-mustard-floor-22.png"
+        },
+        {
+          "source": "img/day-mustard-floor-23.png"
+        },
+        {
+          "source": "img/day-mustard-floor-24.png"
+        },
+        {
+          "source": "img/day-mustard-floor-25.png"
+        },
+        {
+          "source": "img/day-mustard-floor-26.png"
+        },
+        {
+          "source": "img/day-mustard-floor-27.png"
+        },
+        {
+          "source": "img/day-mustard-floor-28.png"
+        },
+        {
+          "source": "img/day-mustard-floor-29.png"
+        },
+        {
+          "source": "img/day-mustard-floor-30.png"
+        },
+        {
+          "source": "img/day-mustard-floor-31.png"
+        },
+        {
+          "source": "img/day-mustard-floor-32.png"
+        },
+        {
+          "source": "img/day-mustard-floor-33.png"
+        },
+        {
+          "source": "img/day-mustard-floor-34.png"
+        },
+        {
+          "source": "img/day-mustard-floor-35.png"
+        },
+        {
+          "source": "img/day-mustard-floor-36.png"
+        },
+        {
+          "source": "img/day-mustard-floor-37.png"
+        },
+        {
+          "source": "img/day-mustard-floor-38.png"
+        },
+        {
+          "source": "img/day-mustard-floor-39.png"
+        },
+        {
+          "source": "img/day-mustard-floor-40.png"
+        },
+        {
+          "source": "img/day-mustard-floor-41.png"
+        },
+        {
+          "source": "img/day-mustard-floor-42.png"
+        },
+        {
+          "source": "img/day-mustard-floor-43.png"
+        },
+        {
+          "source": "img/day-mustard-floor-44.png"
+        },
+        {
+          "source": "img/day-mustard-floor-45.png"
+        },
+        {
+          "source": "img/day-mustard-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-mustard-floor.png",
+      "blockMeshes": {
+        "outward": "floor_outward",
+        "enclosed": "floor_enclosed",
+        "building": "floor_building"
+      },
+      "health": 3000,
+      "selection_type": 21,
+      "texture": "golden_floor",
+      "inmap_image": null,
+      "connection_type": "floor",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 155,
+      "img": {
+        "source": [
+          "img/inv-red-floor-out.png",
+          "img/inv-red-floor-in.png",
+          "img/inv-red-floor-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Red floor",
+        "description": "Players can't spawn on it",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 7,
+            "count": 2
+          }
+        ]
+      },
+      "stack": 255,
+      "width": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "height": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "putableimg": {
+        "source": "img/day-clear-blue-stone-floor.png"
+      },
+      "notputableimg": {
+        "source": "img/day-redprint-stone-floor.png"
+      },
+      "isDoor": 0,
+      "broken": [
+        {
+          "source": "img/day-red-floor-broken0.png"
+        },
+        {
+          "source": "img/day-red-floor-broken1.png"
+        },
+        {
+          "source": "img/day-red-floor-broken2.png"
+        }
+      ],
+      "instation": [
+        {
+          "source": "img/day-red-floor-0.png"
+        },
+        {
+          "source": "img/day-red-floor-1.png"
+        },
+        {
+          "source": "img/day-red-floor-2.png"
+        },
+        {
+          "source": "img/day-red-floor-3.png"
+        },
+        {
+          "source": "img/day-red-floor-4.png"
+        },
+        {
+          "source": "img/day-red-floor-5.png"
+        },
+        {
+          "source": "img/day-red-floor-6.png"
+        },
+        {
+          "source": "img/day-red-floor-7.png"
+        },
+        {
+          "source": "img/day-red-floor-8.png"
+        },
+        {
+          "source": "img/day-red-floor-9.png"
+        },
+        {
+          "source": "img/day-red-floor-10.png"
+        },
+        {
+          "source": "img/day-red-floor-11.png"
+        },
+        {
+          "source": "img/day-red-floor-12.png"
+        },
+        {
+          "source": "img/day-red-floor-13.png"
+        },
+        {
+          "source": "img/day-red-floor-14.png"
+        },
+        {
+          "source": "img/day-red-floor-15.png"
+        },
+        {
+          "source": "img/day-red-floor-16.png"
+        },
+        {
+          "source": "img/day-red-floor-17.png"
+        },
+        {
+          "source": "img/day-red-floor-18.png"
+        },
+        {
+          "source": "img/day-red-floor-19.png"
+        },
+        {
+          "source": "img/day-red-floor-20.png"
+        },
+        {
+          "source": "img/day-red-floor-21.png"
+        },
+        {
+          "source": "img/day-red-floor-22.png"
+        },
+        {
+          "source": "img/day-red-floor-23.png"
+        },
+        {
+          "source": "img/day-red-floor-24.png"
+        },
+        {
+          "source": "img/day-red-floor-25.png"
+        },
+        {
+          "source": "img/day-red-floor-26.png"
+        },
+        {
+          "source": "img/day-red-floor-27.png"
+        },
+        {
+          "source": "img/day-red-floor-28.png"
+        },
+        {
+          "source": "img/day-red-floor-29.png"
+        },
+        {
+          "source": "img/day-red-floor-30.png"
+        },
+        {
+          "source": "img/day-red-floor-31.png"
+        },
+        {
+          "source": "img/day-red-floor-32.png"
+        },
+        {
+          "source": "img/day-red-floor-33.png"
+        },
+        {
+          "source": "img/day-red-floor-34.png"
+        },
+        {
+          "source": "img/day-red-floor-35.png"
+        },
+        {
+          "source": "img/day-red-floor-36.png"
+        },
+        {
+          "source": "img/day-red-floor-37.png"
+        },
+        {
+          "source": "img/day-red-floor-38.png"
+        },
+        {
+          "source": "img/day-red-floor-39.png"
+        },
+        {
+          "source": "img/day-red-floor-40.png"
+        },
+        {
+          "source": "img/day-red-floor-41.png"
+        },
+        {
+          "source": "img/day-red-floor-42.png"
+        },
+        {
+          "source": "img/day-red-floor-43.png"
+        },
+        {
+          "source": "img/day-red-floor-44.png"
+        },
+        {
+          "source": "img/day-red-floor-45.png"
+        },
+        {
+          "source": "img/day-red-floor-46.png"
+        }
+      ],
+      "ground_img": "img/day-ground-red-floor.png",
+      "blockMeshes": {
+        "outward": "floor_outward",
+        "enclosed": "floor_enclosed",
+        "building": "floor_building"
+      },
+      "health": 3000,
+      "selection_type": 21,
+      "texture": "red_floor",
+      "inmap_image": null,
+      "connection_type": "floor",
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false,
+      "inmapx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "inmapy": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 160,
+      "img": {
+        "source": [
+          "img/skill-eye1-out.png",
+          "img/skill-eye1-in.png",
+          "img/skill-eye1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Vision 1",
+        "description": "Improve your vision",
+        "level": 0,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-eye1.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 161,
+      "img": {
+        "source": [
+          "img/skill-eye2-out.png",
+          "img/skill-eye2-in.png",
+          "img/skill-eye2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Vision 2",
+        "description": "Improve your vision",
+        "level": 5,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-eye2.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 162,
+      "img": {
+        "source": [
+          "img/skill-eye3-out.png",
+          "img/skill-eye3-in.png",
+          "img/skill-eye3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Vision 3",
+        "description": "Improve your vision",
+        "level": 7,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-eye3.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 163,
+      "img": {
+        "source": [
+          "img/skill-builder1-out.png",
+          "img/skill-builder1-in.png",
+          "img/skill-builder1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Builder 1",
+        "description": "Multiplies some craft by two",
+        "level": 6,
+        "skillCost": 2,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-builder1.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 164,
+      "img": {
+        "source": [
+          "img/skill-builder2-out.png",
+          "img/skill-builder2-in.png",
+          "img/skill-builder2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Builder 2",
+        "description": "Repair much faster",
+        "level": 18,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-builder2.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 165,
+      "img": {
+        "source": [
+          "img/skill-inv1-out.png",
+          "img/skill-inv1-in.png",
+          "img/skill-inv1-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 1",
+        "description": "Add a slot in your inventory",
+        "level": 0,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-inv1.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 166,
+      "img": {
+        "source": [
+          "img/skill-inv2-out.png",
+          "img/skill-inv2-in.png",
+          "img/skill-inv2-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 2",
+        "description": "Add a slot in your inventory",
+        "level": 5,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-inv2.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 167,
+      "img": {
+        "source": [
+          "img/skill-inv3-out.png",
+          "img/skill-inv3-in.png",
+          "img/skill-inv3-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 3",
+        "description": "Add a slot in your bag",
+        "level": 7,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-inv3.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 168,
+      "img": {
+        "source": [
+          "img/skill-inv4-out.png",
+          "img/skill-inv4-in.png",
+          "img/skill-inv4-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 4",
+        "description": "Add two slots in your bag",
+        "level": 10,
+        "skillCost": 2,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-inv4.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 169,
+      "img": {
+        "source": [
+          "img/skill-inv5-out.png",
+          "img/skill-inv5-in.png",
+          "img/skill-inv5-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Inventory 5",
+        "description": "Add three slots in your bag",
+        "level": 12,
+        "skillCost": 3,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-inv5.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 170,
+      "img": {
+        "source": [
+          "img/skill-lightweight-out.png",
+          "img/skill-lightweight-in.png",
+          "img/skill-lightweight-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Light Weight",
+        "description": "Less likely to trigger traps.",
+        "level": 8,
+        "skillCost": 1,
+        "type": 0,
+        "requiredResources": []
+      },
+      "ground_img": "img/skill-lightweight.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": false,
+      "collidesWithEntities": false
+    },
+    {
+      "id": 200,
+      "img": {
+        "source": [
+          "img/inv-wood-wall-out.png",
+          "img/inv-wood-wall-in.png",
+          "img/inv-wood-wall-click.png"
+        ]
+      },
+      "detail": {
+        "name": "Resource",
+        "description": "Resource",
+        "level": -1,
+        "skillCost": 1,
+        "type": 3,
+        "requiredResources": [
+          {
+            "itemId": 1,
+            "count": 20
+          }
+        ]
+      },
+      "isDoor": 0,
+      "ground_img": "img/day-ground-wood-wall.png",
+      "inmap_image": null,
+      "hittable_by_projectiles": true,
+      "collidesWithEntities": true
+    }
+  ]
+}
