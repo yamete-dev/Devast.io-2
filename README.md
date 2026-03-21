@@ -1,6 +1,8 @@
 # Devast.io-2
 
-![Game Preview](preview.png)
+[![Devast.io 2 Gameplay](https://img.youtube.com/vi/jer8nw0e1VY/maxresdefault.jpg)](https://youtu.be/jer8nw0e1VY)
+
+![Game Preview](https://raw.githubusercontent.com/yamete-dev/Devast.io-2/main/screenshot.png)
 
 A 3D recreation of the popular 2D multiplayer survival game [Devast.io](https://devast.io), built in Unity utilizing Mirror Networking.
 
