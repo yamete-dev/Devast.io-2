@@ -1,6 +1,6 @@
 # Devast.io-2
 
-[Official Thread](https://rankstone.ink/forum/game-hacking/devast-io/devast-io-2-unity)
+[Official Thread](https://rankstone.org/forum/game-hacking/devast-io/devast-io-2-unity)
 
 [![Devast.io 2 Gameplay](https://img.youtube.com/vi/jer8nw0e1VY/maxresdefault.jpg)](https://youtu.be/jer8nw0e1VY)
 
